@@ -1,0 +1,84 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(44, 12, 75);
+  color: rgb(191, 142, 189);
+  font-size: 28px;
+  height: 90px;
+}
+
+.container {
+  width: 500px;
+  padding: 22px;
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 6px;
+  position: relative;
+  top: 33px;
+  margin: auto;
+}
+
+.searchBar {
+  display: flex;
+  gap: 4px;
+}
+
+.container input {
+  width: 80%;
+  padding: 12px;
+  height: 15px;
+  border: 1.7px solid black;
+  outline: none;
+  background-color: #e9e8e8;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.searchBar button {
+  width: 80px;
+  background-color: rgb(44, 12, 75);
+  color: rgb(191, 142, 189);
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+}
+
+.text {
+  padding: 22px;
+  margin-top: 22px;
+}
+
+.text p {
+  margin-top: 18px;
+}
+
+.text a {
+  padding: 6px 20px;
+  background-color: rgb(44, 12, 75);
+  color: rgb(191, 142, 189);
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+  top: 12px;
+  border-radius: 4px;
+}
+
+.text span {
+  color: gray;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+  }
+}
